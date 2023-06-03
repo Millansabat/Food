@@ -1,0 +1,56 @@
+/*NAV*/
+
+#navbar {
+  flex-direction: column;
+}
+
+#home {
+  margin-top: 280px;
+  height: 280px;
+  padding: -3px 200px;
+}
+
+.h-primary {
+  font-size: 25px;
+  margin-top: 300px;
+  padding: 20px;
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+}
+
+/*contact*/
+.h-primary-center {
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-left: 5px;
+
+}
+
+.form-group input {
+  height: 10px;
+  width: 200px;
+}
+
+#send {
+  margin-left: 5px;
+}
+
+.btn {
+  font-size: 13px;
+  padding: 0px 7px;
+}
+
+/*service*/
+#exit {
+  margin-left: 5px;
+}
+
+/*about*/
+.item img {
+  margin-left: 5px;
+}

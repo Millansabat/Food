@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="phone.css">
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="./img/zomato.2.jpg" alt="welcome to the best service ">
+        </div>
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About </a></li>
+            <li class="item"><a href="service.html">Service</a></li>
+            <li class="item"><a href="contact.html">contact us</a></li>
+
+
+        </ul>
+
+    </nav>
+    <section id="contact">
+        <h1 class="h-primary center">Contact us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae nihil incidunt harum nesciunt iusto
+            earum explicabo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim tempore distinctio eum
+            consectetur praesentium possimus debitis in officiis a quis? magni veniam voluptate quia hic, animi aliquid
+            perspiciatis corporis obcaecati, ullam
+            temporibus impedit?</p>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for=" first name"> First Name</label>
+                    <input type="name" id="name" placeholder="Enter your First Name">
+                    <label for="last name">Last Name</label>
+                    <input type="name" id="name" placeholder="Enter your Last Name">
+                    <label for="address">Address</label>
+                    <input type="address" id="address" placeholder="Enter your Address">
+                    <label for="Number">Number</label>
+                    <input type="text" placeholder="Enter your number ">
+                    <label for="email">Email id</label>
+                    <input type="text" name="email" id="email" placeholder="Enter your email id ">
+
+                </div>
+                <button class="btn" id="send" onclick="myfunction()">Send</button>
+
+            </form>
+        </div>
+
+    </section>
+
+</body>
+<script>
+    function myfunction() {
+        alert("Sucessfully submited");
+    }
+
+</script>
+
+</html>
